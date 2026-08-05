@@ -1,7 +1,7 @@
 import random
 
 def play_rock_paper_scissors():
-    print("Welcome to Rock, Paper, Scissors!")
+    print("Welcome to Rock, Paper, Scissors! 😼")
     print("Type 'quit' whenever you are satisfied and want to exit the game.\n")
     score = {
         'user_wins': 0,
