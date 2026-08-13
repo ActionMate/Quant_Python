@@ -1,0 +1,31 @@
+[33mcommit cbecfbdbd41491924db1c018a4e06282cf9f94d7[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: Diwakar Rana <diwakarrana696@gmail.com>
+Date:   Wed Aug 5 15:14:38 2026 +0530
+
+    Rename README files and update rock paper scissors
+
+[1mdiff --git a/README.text b/README.md[m
+[1msimilarity index 100%[m
+[1mrename from README.text[m
+[1mrename to README.md[m
+[1mdiff --git a/python_part_1/fibonacci sequence/README.text b/python_part_1/fibonacci_sequence/README.text[m
+[1msimilarity index 100%[m
+[1mrename from python_part_1/fibonacci sequence/README.text[m
+[1mrename to python_part_1/fibonacci_sequence/README.text[m
+[1mdiff --git a/python_part_1/fibonacci sequence/test.py b/python_part_1/fibonacci_sequence/test.py[m
+[1msimilarity index 100%[m
+[1mrename from python_part_1/fibonacci sequence/test.py[m
+[1mrename to python_part_1/fibonacci_sequence/test.py[m
+[1mdiff --git a/python_part_1/rock_paper_scissors_game(my 1st real project)/challenge.py b/python_part_1/rock_paper_scissors_game(my 1st real project)/challenge.py[m
+[1mindex 7aee6fa..9a8fa67 100644[m
+[1m--- a/python_part_1/rock_paper_scissors_game(my 1st real project)/challenge.py[m	
+[1m+++ b/python_part_1/rock_paper_scissors_game(my 1st real project)/challenge.py[m	
+[36m@@ -1,7 +1,7 @@[m
+ import random[m
+ [m
+ def play_rock_paper_scissors():[m
+[31m-    print("Welcome to Rock, Paper, Scissors!")[m
+[32m+[m[32m    print("Welcome to Rock, Paper, Scissors! 😼")[m
+     print("Type 'quit' whenever you are satisfied and want to exit the game.\n")[m
+     score = {[m
+         'user_wins': 0,[m
