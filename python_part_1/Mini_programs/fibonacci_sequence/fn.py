@@ -4,6 +4,3 @@ for q in range(user_input):
     print(i, end=' ')
     c,i=i,c+i
 print(i)
-
-
-

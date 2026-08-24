@@ -1,4 +1,3 @@
-
 while True:
     a=input("Enter anything to find Palindrome (don't type anything to exit) : ")
     if a=='':
