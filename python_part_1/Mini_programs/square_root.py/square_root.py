@@ -1,4 +1,5 @@
 import math
+
 def is_square(n):
     if n>=0:
         if n%math.sqrt(n)==0:
