@@ -6,6 +6,7 @@ while True:
     4. Divide
     5. Expotential
     6. leave blank to exit''')
+    
     choice=input('Enter your response : ')
     if choice == '':
         break

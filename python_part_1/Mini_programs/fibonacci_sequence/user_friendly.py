@@ -2,4 +2,6 @@ i,c=0,1
 x=int(input("Enter how many terms you want : "))
 for q in range(x):
     print(i, end=', ')
-    c,i=i,c+i
+    t=i+c
+    i=c
+    c=t
