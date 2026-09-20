@@ -1,9 +1,19 @@
-import re
-pattern = re.compile(r'''(
-    (\d{3}|\(\d{3}\))?                  # Area code
-    (\s|-|\.)?                          # Separator
-    \d{3}                               # First three digits
-    (\s|-|\.)                           # Separator
-    \d{4}                               # Last four digits
-    (\s*(ext|x|ext\.)\s*\d{2,5})?       # Extension
-    )''', re.VERBOSE)
+import re,pyperclip
+
+nub=re.compile(r'''(
+(?:[a-zA-Z0-9]+\.)?
+[a-zA-Z]+
+\.[a-zA-Z]{2,4}
+)''', re.VERBOSE)
+
+text = input('>> ')
+matches = []
+
+for group in nub.findall(text):
+    matches.append(group)
+
+if len(matches)>0:
+    print('copied to clipboard : ')
+    print('\n'.join(matches))
+else:
+    print('No url addresses found.')
