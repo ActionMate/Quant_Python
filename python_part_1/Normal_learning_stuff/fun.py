@@ -6,7 +6,10 @@ def dramatic_print(text, delay=0.05):
         print(char, end='', flush=True)
         time.sleep(delay)
     print()  
-
+v=10
+k='wood'
+c=str(v)+k
+dramatic_print(c, 0.08)
 dramatic_print("Connecting to the mainframe...", 0.08)
 dramatic_print("Access granted...", 0.03)
 dramatic_print("Loading..in..",0.08)
